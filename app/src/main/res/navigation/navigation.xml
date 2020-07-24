@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/appsToBackUp">
+
+    <fragment
+        android:id="@+id/appsToBackUp"
+        android:name="com.creater.backup.installedApps.AppsToBackUp"
+        android:label="apps_to_back_up_fragment"
+        tools:layout="@layout/apps_to_back_up_fragment" />
+</navigation>
